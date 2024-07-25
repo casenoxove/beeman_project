@@ -415,18 +415,53 @@ main .page_five .five_title p em {
 
 footer {
     display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    color: #FFFFFF;
 }
 footer .left {
     padding-left: 187px;
+    margin-bottom: 61px;
 }
-footer .left .top_link {}
-footer .left .top_link a {}
+footer .left .top_link {
+    margin-top: 61px;
+}
+footer .left .top_link a {
+    font-size: 0.813rem;
+    color: #FFFFFF;
+}
 footer .left .company_text {}
-footer .left .company_text ul {}
-footer .left .company_text ul li {}
+footer .left .company_text ul {
+    margin-top: 15px;
+}
+footer .right .user_help ul li span,
+footer .right .user_help ul li em,
+footer .right .user_help ul li,
+footer .left .company_text ul li {
+    font-size: 0.813rem;
+    font-weight: 300;
+    line-height: 1.7;
+}
 footer .right {
     text-align: right;
+    padding-right: 187px;
 }
-footer .right .top_icon {}
+footer .right .top_icon {
+    margin-top: 61px;
+}
 footer .right .top_icon a {}
 footer .right .top_icon a img {}
+footer .right .user_help {}
+footer .right .user_help ul {
+    margin-top: 30px;
+}
+footer .right .user_help ul li {}
+footer .right .user_help ul li:last-child {
+    color: #808080;
+}
+footer .right .user_help ul li span {
+    font-weight: 500;
+}
+footer .right .user_help ul li em {
+    font-weight: 500;
+}
